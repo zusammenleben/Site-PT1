@@ -86,3 +86,86 @@ header{
         left: 300px;
         font-size: 35px;
     }
+
+.teaserText h1, .teaserText p{
+    text-align: center;
+}
+
+.lesThumbnails{
+    width: 900px;
+}
+
+    .thumbnail{
+        width: 25%;
+        margin-top: 60px;
+        background-color: #BCBCBC;
+        margin-bottom: 100px;
+        border-radius: 5px;
+        padding-bottom: 10px;
+        padding-top: 3px;
+        display: inline-block;
+        margin-left: 60px;
+        vertical-align: top;
+    }
+
+        .thumbnail img{
+            margin-left: 10%;
+            width: 80%;
+        }
+
+        .thumbnail h1{
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .thumbnail .help-block{
+            text-align: center;
+            font-size: 14px;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+
+        .thumbnail .button{
+            width: 100px;
+            margin-left: 27%;
+            background-color: #2C3E50;
+            padding: 1px 1px 1px 1px;
+        }
+
+        .thumbnail .button a{
+            text-decoration: none;
+            color: white;
+            text-decoration: none;
+        }
+        .thumbnail .button a:hover{
+            color: #BCBCBC;
+        }
+
+        .thumbnail .button a p{
+            font-size: 13px;
+            text-align: center;
+        }
+
+footer{
+    width: 900px;
+    margin: auto;
+    background-color: #2C3E50;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+    footer p{
+        padding-top: 27px;
+        color: #BCBCBC;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    footer p a{
+        text-decoration: none;
+        color: orange;
+    }
+
+    footer p a:hover{
+        text-decoration: underline;
+    }
