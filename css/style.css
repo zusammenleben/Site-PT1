@@ -7,165 +7,192 @@
 }
 
 body{
-    background-color: #F7F7F7;
-    width: 900px;
-    margin: auto;
-    font-family: police;
+    font-family: Arial;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
 }
 
 header{
-    background-color: #2C3E50;
-    color: white;
-    height: 80px;
-    text-transform: uppercase;
-    margin-top: 10px;
+    background: #404852;
+    height: 60px;
+    font-size: 20px;
 }
 
-    #navbar a{
-        color: #BCBCBC;
-        font-weight: normal;
-        text-decoration: none;
-        margin-left: 20px;
-        font-size: 17px;
-    }
-
-    #navbar a:hover, #logo a{
-        color: white;
+    #logo{
+        background: #72A349;
+        height: 60px;
+        width: 150px;
     }
 
     #logo a{
-        margin-left: 10px;
         color: white;
-        text-decoration: none;
+        position: relative;
+        top: 17px;
+        left: 35px;
+    }
+
+    #navbar, #logo, #lien1, #lien2, #lien3, #lien4{
+        display: inline-block;
     }
 
     #navbar{
-        float: right;
-        position: relative;
-        top: 27px;
-        right: 160px;
+        margin-left: 10%;
     }
 
-    #logo{
-        float: left;
+    #navbar #lien1 a, #navbar #lien2 a, #navbar #lien3 a, #navbar #lien4 a{
+        color: #687484;
+        margin-left: 30px;
         position: relative;
-        bottom: 2px;
-        left: 10px;
+        top: 17px;
     }
 
-.teaserImage{
+    #navbar #lien1 a:hover, #navbar #lien2 a:hover, #navbar #lien3 a:hover, #navbar #lien4 a:hover{
+        color: white;
+    }
+
+.teaser{
+    height: 300px;
+    margin:0;
+    padding:0;
+    background: url(../img/big-data.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    opacity: 0.9;
+}
+
+    .teaser h1{
+        color: #fafafa;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .teaser .escalier1{
+        position: relative;
+        top: 40px;
+        left: 10%
+    }
+
+    .teaser .escalier2{
+        position: relative;
+        top: 80px;
+        left: 20%;
+    }
+
+    .teaser .escalier3{
+        position: relative;
+        top: 120px;
+        left: 30%;
+    }
+
+.description{
     margin-top: 10px;
-    height: 350px;
-
 }
-    .teaserImage img{
-        width: 900px;
-        height: 350px;
+
+    .description h1{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
     }
 
-    .teaserImage .escalier1{
-        position: relative;
-        bottom: 320px;
-        color: white;
-        left: 30px;
-        font-size: 35px;
+    .description p{
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-
-    .teaserImage .escalier2{
-        position: relative;
-        bottom: 300px;
-        color: white;
-        left: 120px;
-        font-size: 35px;
-    }
-
-    .teaserImage .escalier3{
-        position: relative;
-        bottom: 280px;
-        color: white;
-        left: 300px;
-        font-size: 35px;
-    }
-
-.teaserText h1, .teaserText p{
-    text-align: center;
-}
 
 .lesThumbnails{
-    width: 900px;
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 10%;
 }
 
     .thumbnail{
+        padding: 10px 10px 30px 10px;
         width: 25%;
-        margin-top: 60px;
-        background-color: #BCBCBC;
-        margin-bottom: 100px;
-        border-radius: 5px;
-        padding-bottom: 10px;
-        padding-top: 3px;
+        background: #e0e0e0;
         display: inline-block;
-        margin-left: 60px;
         vertical-align: top;
+        margin-left: 5%; 
+        border-radius: 5px;
     }
 
-        .thumbnail img{
-            margin-left: 10%;
-            width: 80%;
-        }
+    .thumbnail a h1{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 
-        .thumbnail h1{
-            font-size: 25px;
-            text-align: center;
-        }
+    .thumbnail a h1:hover{
+        text-decoration: underline;
+    }
 
-        .thumbnail .help-block{
-            text-align: center;
-            font-size: 14px;
-            margin-left: 3px;
-            margin-right: 3px;
-        }
+    .thumbnail .help-block p{
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 
-        .thumbnail .button{
-            width: 100px;
-            margin-left: 27%;
-            background-color: #2C3E50;
-            padding: 1px 1px 1px 1px;
-        }
+    .thumbnail img{
+        width: 100%;
+    }
 
-        .thumbnail .button a{
-            text-decoration: none;
-            color: white;
-            text-decoration: none;
-        }
-        .thumbnail .button a:hover{
-            color: #BCBCBC;
-        }
+    .thumbnail .button a p{
+        background: #3946a8;
+        font-size: 17px;
+        text-align: center;
+        color: white;
+        padding: 5px 5px 5px 5px;
+        border-radius: 10px
+    }
 
-        .thumbnail .button a p{
-            font-size: 13px;
-            text-align: center;
-        }
+    .thumbnail .button a p:hover{
+        text-decoration: underline;
+    }
+
+    .thumbnail .button {
+        margin: auto;
+        width: 150px;
+        margin-top: 40px;
+        border-radius: 10px
+    }
 
 footer{
-    width: 900px;
-    margin: auto;
-    background-color: #2C3E50;
+    background: #e3e3e3;
     height: 80px;
-    margin-bottom: 10px;
+    border-top: 4px solid #B6C0C1;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 
     footer p{
-        padding-top: 27px;
-        color: #BCBCBC;
-        font-weight: normal;
+        margin-top: 30px;
         text-align: center;
     }
 
     footer p a{
-        text-decoration: none;
-        color: orange;
+        margin-top: 30px;
+        text-align: center;
+        color: #BF5200;
     }
 
     footer p a:hover{
         text-decoration: underline;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
