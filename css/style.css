@@ -107,58 +107,67 @@ header{
 
 .lesThumbnails{
     margin-top: 40px;
-    width: 80%;
+    width: 70%;
     margin-left: 10%;
 }
 
     .thumbnail{
-        padding: 10px 10px 30px 10px;
-        width: 25%;
+        padding: 10px 10px 10px 10px;
+        width: 100%;
         background: #e0e0e0;
-        display: inline-block;
         vertical-align: top;
         margin-left: 5%; 
         border-radius: 5px;
+        margin-bottom: 20px;
     }
 
-    .thumbnail a h1{
+    .thumbnail img{
+        width: 40%;
+        display: inline;
+    }
+
+    .thumbnail .text{
+        float: right;
+        display: inline;
+        width: 60%;
+        margin: auto;
+    }
+
+    .thumbnail .text a h1{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .thumbnail .text a h1:hover{
+        text-decoration: underline;
+    }
+
+    .thumbnail .text .help-block p{
         font-size: 20px;
         text-align: center;
         margin-bottom: 10px;
     }
 
-    .thumbnail a h1:hover{
-        text-decoration: underline;
-    }
-
-    .thumbnail .help-block p{
-        font-size: 17px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .thumbnail img{
-        width: 100%;
-    }
-
-    .thumbnail .button a p{
+    .thumbnail .text .button a p{
         background: #3946a8;
         font-size: 17px;
         text-align: center;
         color: white;
         padding: 5px 5px 5px 5px;
-        border-radius: 10px
+        border-radius: 10px;
     }
 
-    .thumbnail .button a p:hover{
+    .thumbnail .text .button a p:hover{
         text-decoration: underline;
     }
 
-    .thumbnail .button {
+    .thumbnail .text .button {
         margin: auto;
         width: 150px;
         margin-top: 40px;
-        border-radius: 10px
+        border-radius: 10px;
     }
 
 footer{
