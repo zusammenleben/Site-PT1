@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: 'police';
-    src: url('../fonts/police.ttf');
+    src: url('fonts/police.ttf');
     font-weight: normal;
     font-style: none;
 }

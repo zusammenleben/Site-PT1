@@ -1,0 +1,63 @@
+.titreMetier{
+    height: 300px;
+    margin:0;
+    padding:0;
+    background: url(../img/metier.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    opacity: 0.9;
+}
+
+    .titreMetier h1{
+        color: #fafafa;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .titreMetier .escalier1{
+        position: relative;
+        top: 75px;
+        left: 10%
+    }
+
+    .titreMetier .escalier2{
+        position: relative;
+        top: 150px;
+        left: 20%;
+    }
+
+.description{
+    margin: 30px 0px;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+}
+
+    section article{
+        margin: 30px 0px;
+        background: #e0e0e0;
+        border-radius: 12px;
+        padding:15px;
+        text-align: justify;;
+    }
+
+        article  h1{
+            font-size: 26px;
+            text-align: center;
+            text-decoration: underline;;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        article  p{
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        article ul li{
+            list-style-type: circle;
+            margin-left: 35px;
+            font-size: 18px;
+        }
